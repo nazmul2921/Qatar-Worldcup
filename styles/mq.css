@@ -1,0 +1,62 @@
+/* -----------------------------------------Media Queries-------------------------------- */
+
+/* ---------------------Mobile Devices---------------------- */
+
+@media only screen and (max-width:688px) {
+
+
+    /* -----banner start----- */
+    .banner {
+        height: 710px;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+    }
+
+    .img {
+        left: 0px;
+        top: 370px;
+        width: 400px;
+    }
+
+    .group1 {
+        height: 320px;
+        width: auto;
+        left: 5%;
+        right: 5%;
+        text-align: center;
+
+    }
+
+    .header-button {
+        height: 60px;
+        width: 130px;
+        border-radius: 10px;
+    }
+
+    .boxes-1 {
+        display: none;
+    }
+
+    /* -----banner end------ */
+
+    /* ---------footer start--------- */
+    .fifa {
+        height: 750px;
+    }
+
+    .level {
+        display: block;
+        text-align: justify;
+    }
+
+    .gap {
+        display: block;
+        text-align: justify;
+    }
+
+    .level-2 {
+        display: block;
+    }
+
+}

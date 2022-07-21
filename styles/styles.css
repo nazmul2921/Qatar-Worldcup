@@ -1,0 +1,279 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto&display=swap');
+
+/*------common styles------ */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-color {
+    color: antiquewhite;
+}
+
+h3,
+p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* ----banner start----*/
+/* h1 { */
+/* text-align: left; */
+/* } */
+
+.banner {
+    position: absolute;
+    height: 400px;
+    width: 77.45%;
+    background: #4e084e;
+    border-radius: 30px;
+    left: 140px;
+    top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.group1 {
+    position: absolute;
+    height: 420px;
+    width: 530px;
+    left: 130px;
+    right: 0%;
+    top: 60px;
+    text-align: left;
+
+}
+
+.para-1 {
+    text-align: left;
+    color: antiquewhite;
+    padding-left: 2px;
+    font-size: large;
+
+}
+
+/* button  */
+.header-button {
+    background-color: #090931;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    color: antiquewhite;
+
+}
+
+.fa-ticket-simple {
+    color: antiquewhite;
+    padding-left: 10px;
+}
+
+/* image  */
+.img {
+    position: absolute;
+    height: 615px;
+    width: 715px;
+    left: 1000px;
+    top: 60px;
+}
+
+/* -------banner end----------  */
+
+section {
+    display: flex;
+    position: absolute;
+    top: 600px;
+}
+
+/* ----------------------------main-BLOGS-start---------------------------- */
+.white-space {
+    width: 35%;
+}
+
+.box-1 {
+    background-color: #4e084e;
+    border: 5px;
+    width: 300px;
+    border-radius: 13px;
+    margin-left: 130px;
+}
+
+.boxes-1 {
+    margin: 10px;
+}
+
+.button-3 {
+    width: 240px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.box {
+    border: 2px solid rgb(216, 217, 226);
+    border-radius: 9px;
+    padding-left: 0;
+    margin: 10px;
+    width: 310px;
+}
+
+.boxes-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 10px;
+    width: 65%;
+    margin-left: 40px;
+}
+
+
+
+.button-6 {
+    margin-left: 10px;
+    background-color: #090931;
+    border-radius: 5px;
+    padding: 8px;
+    color: antiquewhite;
+}
+
+/* ---------icon---------  */
+
+.inline {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.inline-icon {
+    width: 30px;
+    height: 30px;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* ---------icon---------  */
+
+
+/* ------------------------main-BLOGS-end------------------------------  */
+
+/* optional */
+#blog-color:hover {
+    background-color: #090931;
+    color: #ebe5de;
+}
+
+#upcoming-color:hover {
+    background-color: #090931;
+    color: #ebe5de;
+}
+
+#group-color:hover {
+    background-color: #090931;
+    color: #ebe5de;
+}
+
+/* optional  */
+
+/*------------------------ main-UPCOMING-MATCH-start -------------------- */
+.vs-space {
+    display: inline-block;
+    padding: 20px;
+}
+
+.match {
+    text-align: center;
+
+}
+
+
+
+
+.box {
+    border: 2px solid rgb(216, 217, 226);
+    border-radius: 9px;
+    padding-left: 0;
+    margin: 10px;
+    width: 310px;
+}
+
+.flag {
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+/* ----------------------main-UPCOMING-MATCH-end------------------------  */
+button>a {
+    text-decoration: none;
+    color: black;
+}
+
+button>a:hover {
+    color: azure;
+}
+
+/* -------------------------- footer start--------------------------  */
+.fifa {
+    position: absolute;
+    height: 444px;
+    width: 100%;
+    left: 0px;
+    top: 1460px;
+    background: #4e084e;
+    text-align: center;
+    padding-top: 90px;
+
+}
+
+hr {
+    border: 1px solid #090931;
+    position: absolute;
+    height: 0%;
+    width: 80%;
+    left: 10%;
+    top: 1704px;
+
+}
+
+.level {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 1760px;
+    font-size: large;
+    display: flex;
+
+
+}
+
+.gap {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.level-2 {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 1850px;
+    display: flex;
+}
+
+.gap-2 {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.fa-brands {
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+/* -------------------------fotter end-------------------------  */
